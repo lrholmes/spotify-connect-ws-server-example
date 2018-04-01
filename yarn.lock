@@ -1901,9 +1901,9 @@ source-map@^0.5.6:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
-spotify-connect-ws@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/spotify-connect-ws/-/spotify-connect-ws-0.1.0.tgz#724aff97e4d792670e89741f9a1c4f3a551c8c2c"
+spotify-connect-ws@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/spotify-connect-ws/-/spotify-connect-ws-0.1.1.tgz#a90af1a57ce8935ec959d1d6323f962f88f2d804"
   dependencies:
     node-fetch "^1.7.3"
 
