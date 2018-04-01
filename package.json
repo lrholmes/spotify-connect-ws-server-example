@@ -1,0 +1,24 @@
+{
+  "name": "spotify-connect-ws-example-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Lawrence Holmes",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js",
+    "build": "babel src --out-dir build --copy-files",
+    "heroku-postbuild": "npm install && npm install --only=dev && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "node-fetch": "^1.7.3",
+    "socket.io": "^2.0.4",
+    "spotify-connect-ws": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
